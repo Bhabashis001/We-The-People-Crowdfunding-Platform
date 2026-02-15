@@ -113,17 +113,16 @@ The React app will run on `http://localhost:3000`
 - `POST /api/investor/create-startup` - Create new startup
 - And more...
 
-
-## Database Configuration
-
-<p align="center">
-  <img src="Screenshots/Screenshot 2026-01-22 151637.png" alt=" Screenshot" width="700"/>
-</p>
-
 ## Features
 - User registration and authentication
 - Startup creation and management
 - Investment tracking
 - Review system
 - Payment integration with Razorpay
+
+## Screenshot
+
+<p align="center">
+  <img src="Screenshots/Screenshot 2026-01-22 151637.png" alt=" Screenshot" width="700"/>
+</p>
 
