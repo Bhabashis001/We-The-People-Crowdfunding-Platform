@@ -117,7 +117,7 @@ The React app will run on `http://localhost:3000`
 ## Database Configuration
 
 <p align="center">
-  <img src="Screenshots/Screenshot 2026-01-22 151637.png" alt="Database Setup Screenshot" width="700"/>
+  <img src="Screenshots/Screenshot 2026-01-22 151637.png" alt=" Screenshot" width="700"/>
 </p>
 
 ## Features
