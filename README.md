@@ -37,6 +37,8 @@ project-we-the-people/
 - Node.js (v14 or higher)
 - npm or yarn
 - MongoDB (local installation or cloud like MongoDB Atlas)
+- Homebrew (for macOS users)
+Required to manage MongoDB services via brew
 - Git
 
 ## Installation and Setup
@@ -53,10 +55,17 @@ cd project-we-the-people
 2. Create a new cluster and database
 3. Get your connection string
 
-#### Option B: Local MongoDB
-1. Install MongoDB from [mongodb.com](https://www.mongodb.com/try/download/community)
-2. Start MongoDB service
-3. Default connection: `mongodb://localhost:27017/crowdfunding`
+
+#### Option B: Local MongoDB (macOS – Homebrew)
+1. This option is used for local development and testing.
+2. Install MongoDB Community Edition using Homebrew:
+brew tap mongodb/brew
+brew install mongodb-community
+3. Start MongoDB as a background service:
+brew services start mongodb-community
+4. Default local MongoDB connection string:
+mongodb://localhost:27017/crowdfunding
+5. Add the connection string to the .env file as MONGO_URI
 
 ### 3. Backend Setup
 ```bash
@@ -110,16 +119,4 @@ The React app will run on `http://localhost:3000`
 - Investment tracking
 - Review system
 - Payment integration with Razorpay
-
-
-
-## Contributing
-1. Fork the repository
-2. Create a feature branch
-3. Commit your changes
-4. Push to the branch
-5. Create a Pull Request
-
-
-
 
