@@ -59,13 +59,13 @@ cd project-we-the-people
 #### Option B: Local MongoDB (macOS – Homebrew)
 1. This option is used for local development and testing.
 2. Install MongoDB Community Edition using Homebrew:
-brew tap mongodb/brew
-brew install mongodb-community
-3. Start MongoDB as a background service:
-brew services start mongodb-community
-4. Default local MongoDB connection string:
-mongodb://localhost:27017/crowdfunding
-5. Add the connection string to the .env file as MONGO_URI
+```brew tap mongodb/brew ```
+```brew install mongodb-community```
+4. Start MongoDB as a background service:
+```bash brew services start mongodb-community ```
+5. Default local MongoDB connection string:
+```mongodb://localhost:27017/crowdfunding```
+6. Add the connection string to the .env file as MONGO_URI
 
 ### 3. Backend Setup
 ```bash
